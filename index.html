@@ -6,7 +6,7 @@
 
 
     <style type="text/css">
-    `/* color scheme from https://www.schemecolor.com/web-designing-gray-colors.php */
+    /* color scheme from https://www.schemecolor.com/web-designing-gray-colors.php */
         body {
             font-family: 'Courier New', Courier, monospace;
             background-color: #BBBBBB;
@@ -20,19 +20,50 @@
         h1.title-header {
             font-size: 52px;
         }
-
+        div.section {
+            
+        }
+        div.content {
+            width: 40%;
+        }
+        div.content.left {
+            margin-right: auto;
+            text-align: left;
+        }
+        div.content.right {
+            margin-left: auto;
+            text-align: right;
+        }
+        hr.divider {
+            border: unset;
+            border-top: 2px solid #EEEEEE;
+        }
 
     </style>
 </head>
 <body>
     <div class="header">
         <h1 class="title-header">Michael MacDonald</h1>
-
+        <hr class="divider">
     </div>
     
     <div class="body">
 
+        <div class="section">
+            <div class="content right">
+                <h1>this is a test</h1>
+                <p>this is a test this is a test this is a test this is a test</p>
+                <hr class="divider">
+            </div>
+        </div>
 
+        <div class="section">
+            <div class="content left">
+                <p>this is a test</p>
+                <p>this is a test this is a test this is a test this is a test</p>
+                <hr class="divider">
+            </div>
+        </div>
 
     </div>
 
