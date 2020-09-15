@@ -21,16 +21,20 @@
             font-size: 52px;
         }
         div.section {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        div.section.header {
             
         }
-        div.content {
-            width: 40%;
+        div.section.content {
+            width: 60%;
         }
-        div.content.left {
+        div.section.content.left {
             margin-right: auto;
             text-align: left;
         }
-        div.content.right {
+        div.section.content.right {
             margin-left: auto;
             text-align: right;
         }
@@ -50,15 +54,22 @@
     <div class="body">
 
         <div class="section">
-            <div class="content right">
-                <h1>this is a test</h1>
-                <p>this is a test this is a test this is a test this is a test</p>
+            <div class="section header"><h1>About Me</h1></div>
+            <div class="section content left">
+                <h2>My Young Years</h2>
+                <p> Although I was not at the level of Sheldon from 'The Big Bang Theory', I showed an intrest in programming, science, and engineering since I was very young. When I was little I would collect old keys and test them on difrent locks around the house every day. I knew they would not work but I liked seeing what keys would fit into what keyholes. As I grew up my family got me tools for my birthdays and christmas. I got old hand drills, screwdivers, drill bits, little kits with difrent size bolts and screws. I loved my tools and I started taking old things apart to see how they worked. I never understood anything i saw inside but it still fasinated me. I filled boxes with parts from things I disassembled.
+                </p>
+                <hr class="divider">
+            </div>
+            <div class="section content right">
+                <h2>I Get Older</h2>
+                <p> When I was older I got more into programming. I discovered arduinos and raspberry pi's and I did my research and determined that I needed a rpi. Looking back I was young and did not make the right disision. Older me would have gotten younger me a arduino to start out with. I remember the table I sat at as I set up the RPI. I was so happy. When i got it working the first thing I disovered is that it can't be powered back on after shutdown. You have to unplug it and plug it back in. So, I fixed that. I used a button to short gnd and 5v so it would boot back up (not a great idea :/ but I was young).</p>
                 <hr class="divider">
             </div>
         </div>
 
         <div class="section">
-            <div class="content left">
+            <div class="section content left">
                 <p>this is a test</p>
                 <p>this is a test this is a test this is a test this is a test</p>
                 <hr class="divider">
